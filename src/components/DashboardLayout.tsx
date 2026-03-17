@@ -130,6 +130,7 @@ export default function DashboardLayout({
             {[
               { text: "Home", path: "/" },
               { text: "AI Chat 0", path: "/ai-chat-0" },
+              { text: "Resume", path: "/resume" },
             ].map((item, index) => (
               <ListItem key={item.text} component="a" href={item.path}>
                 <ListItemIcon>
